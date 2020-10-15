@@ -1,0 +1,35 @@
+.numberbackground{
+    background-color: aqua;
+    position: fixed;
+    width: 25%;
+    top: 40%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -100px;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+.buttonpart {
+    position: fixed;
+    width: 50%;
+    top: 70%;
+    left: 45%;
+    margin-top: -50px;
+    margin-left: -100px;
+    
+}
+.button {
+    text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  padding: 15px 32px;
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
